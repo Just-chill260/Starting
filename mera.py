@@ -1,7 +1,9 @@
 def ikfunction(jisme):
-     if(jisme == 5):
-        return True
+      id = 0 
+      while(id <= jisme): 
+         print("hel"[id])
+         id += 1
+      
 
-def main():
-    ikfunction("a")
+ikfunction(5)
      
